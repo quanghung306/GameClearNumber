@@ -74,8 +74,7 @@ const NumberGame = () => {
         setFadingPoints((prevFadingPoints) => [...prevFadingPoints, id]);
         setCurrent((prevCurrent) => prevCurrent + 1);
 
-        if (current === points.length ) {
-          
+        if (current === points.length) {
           setStartTime(false);
           setTitle("ALL CLEARED");
         }
@@ -93,7 +92,7 @@ const NumberGame = () => {
           prevPoints.filter((point) => !fadingPoints.includes(point.id))
         );
         setFadingPoints([]);
-      }, 2500); 
+      }, 1500);
 
       return () => clearTimeout(timeoutId);
     }
