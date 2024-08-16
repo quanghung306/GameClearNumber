@@ -86,7 +86,7 @@
     }
   }
   .color-fade-out {
-    animation: colorFadeOut 5s  forwards; 
+    animation: colorFadeOut 3s  forwards; 
   }
   .game-success {
     color: green;

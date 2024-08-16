@@ -93,7 +93,7 @@ const NumberGame = () => {
           prevPoints.filter((point) => !fadingPoints.includes(point.id))
         );
         setFadingPoints([]);
-      }, 4000); 
+      }, 2500); 
 
       return () => clearTimeout(timeoutId);
     }
